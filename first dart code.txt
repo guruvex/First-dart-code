@@ -1,0 +1,17 @@
+class Person {
+  String firstName;
+  
+  Person(this.firstName);
+  // this.(string) will assign the incomming string to this classes string.
+  
+  printName(){
+    print(firstName);
+  }
+}
+
+
+void main (){
+  // create a new object and assign a value to it.
+  var person = new Person("james");
+  person.printName();  
+}
